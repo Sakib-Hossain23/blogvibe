@@ -10,52 +10,54 @@ const Fr = () => {
         <div className="locations">
           <h3>About Us</h3>
           <small>
-            We love sharing the latest fashion trends with you. From
-            eye-catching styles to simple everyday looks, we pick pieces that
-            help you show who you are. Our goal is to mix classic fashion with a
-            fresh, modern touch. We want you to feel confident and
-            stylish—whether you're going to work, out with friends, or on a
-            short trip. Fashion is more than just clothes—it’s a fun way to make
-            every day feel special.
+            Welcome to BlogVibe — your trusted guide to discovering the best
+            products from Amazon.
+            <br /> We research, select, and share top-rated beauty, lifestyle to
+            help you make smarter shopping decisions.
           </small>
 
+          <br />
+          <small>
+            This site contains affiliate links. We may earn a commission if you
+            buy through our links
+            <br />
+          </small>
           <br />
 
           <small>
             Thank you for choosing us to carry your essentials
             <br /> in style!
           </small>
+
+          <div className="locations">
+            <h3>Contact</h3>
+            <p>
+              Email:{" "}
+              <a href="mailto:sakibhossain5676@gmail.com">
+                sakibhossain5676@gmail.com
+              </a>
+            </p>
+          </div>
+          <div className="locations">
+            <h3>-----------------</h3>
+
+            <small>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </small>
+          </div>
         </div>
+
         <div className="customer-support">
           <div className="social-media-links">
-            <div className="navbar-top">
-              {/* Logo section */}
-              <Link
-                to="/"
-                className="footer-button"
-                onClick={() => {
-                  closeAllMenus();
-                  window.scrollTo(0, 0);
-                }}
-              >
-                <div className="navbar-logo">
-                  <img
-                    src="/img/bvvv.png"
-                    alt="GoGadget Store Logo"
-                    className="logo-tilt"
-                    style={{
-                      height: "35px",
-                      width: "auto",
-                      marginLeft: "9px",
-                      marginBottom: "-9px",
-                      cursor: "text",
-                    }}
-                  />
-                  <p style={{ cursor: "text" }}>BlogVibe</p>
-                </div>
-              </Link>
-            </div>
+            <a
+              href="https://www.pinterest.com/sakibhossain5676/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-pinterest"></i>
+            </a>
           </div>
+          Pinterest
         </div>
       </div>
       <div className="fr-bottom">
