@@ -5,17 +5,12 @@ const PrivacyPolicy = () => {
     <section className={styles.legalSection}>
       <h2 className={styles.title}>Privacy Policy</h2>
       <p className={styles.text}>
-        PouchPoise-এ আমরা আপনার গোপনীয়তা সম্মান করি। আমরা আপনার তথ্য শুধুমাত্র
-        অর্ডার প্রক্রিয়াকরণ এবং আপনার শপিং অভিজ্ঞতা উন্নত করার জন্য সংগ্রহ করি।
+        Welcome to our website! Your privacy is very important to us. we respect
+        your privacy and are committed to protecting your personal information.
       </p>
       <p className={styles.text}>
-        আপনার ডেটা নিরাপদে সংরক্ষণ করা হয় এবং তৃতীয় পক্ষের সাথে শেয়ার করা হয়
-        না।
-      </p>
-      <p className={styles.text}>
-        আমাদের সাইট ব্যবহার করার মাধ্যমে আপনি আমাদের গোপনীয়তা নীতি মেনে
-        নিচ্ছেন। কোনো প্রশ্ন থাকলে আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করতে
-        নির্দ্বিধায় পারেন।
+        Our website contains affiliate links, which means we may earn a small
+        commission when you purchase products through those links.
       </p>
     </section>
   );
